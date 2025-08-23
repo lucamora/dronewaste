@@ -1,0 +1,10 @@
+albumentations
+scipy
+numpy
+pandas
+pycocotools
+pyyaml
+scikit-learn
+scikit-multilearn
+wandb
+tabulate
