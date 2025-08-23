@@ -1,0 +1,3 @@
+[submodule "evaluation/tide"]
+	path = evaluation/tide
+	url = git@github.com:wtiandong/tide.git
