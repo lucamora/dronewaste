@@ -55,7 +55,7 @@ for SITE_INDEX in {0..16}; do
         --arch "$arch" \
         --site_index "$SITE_INDEX" \
         --run_id "$fold_id" \
-        --dataset_path "$STORAGE/dronewaste_v1.0/dronewaste_v1.0_global.json" \
+        --dataset_path "$STORAGE/dronewaste/dronewaste_v1.0.json" \
         --tmp_dataset_path "$TMPDIR" \
         --results_path "$STORAGE/kfold_results/$run_id" \
         2>&1 | tee "logs/log_kfold_training_${fold_id}.out"

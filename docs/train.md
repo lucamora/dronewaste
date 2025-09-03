@@ -14,7 +14,23 @@ At the beginning of the script, some parameters must be defined:
 
 ## Dataset download
 
-Download the DroneWaste dataset from [Zenodo](TODO_ADD_ZENODO_LINK) and extract it in the `$STORAGE/dronewaste_v1.0` folder.
+Download the DroneWaste dataset from [Zenodo](https://zenodo.org/) and extract it in the `$STORAGE/dronewaste` folder.
+To extract the `images/` folder, use the the following command:
+
+```bash
+tar xzf images.tar.gz
+```
+
+The structure of the dataset should be as follows:
+
+```bash
+$STORAGE/dronewaste/
+├── dronewaste_v1.0.json
+└── images/
+    ├── site_1_4.png
+    ├── site_1_5.png
+    └── ...
+```
 
 ## Training script
 
