@@ -14,7 +14,7 @@ At the beginning of the script, some parameters must be defined:
 
 ## Dataset download
 
-Download the DroneWaste dataset from [Zenodo](https://zenodo.org/) and extract it in the `$STORAGE/dronewaste` folder.
+Download the DroneWaste dataset from [Zenodo](https://doi.org/10.5281/zenodo.17045559) and extract it in the `$STORAGE/dronewaste` folder.
 To extract the `images/` folder, use the the following command:
 
 ```bash
