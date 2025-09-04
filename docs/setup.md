@@ -10,6 +10,12 @@ Clone both the current repository and its submodule using the following command:
 git clone --recursive https://github.com/lucamora/dronewaste
 ```
 
+If the repository was already cloned, initialize the submodule using the following command:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Virtual environments
 
 Since YOLOv8 and YOLOv12 use the same `ultralytics` namespace, two separate virtual environments should be created to avoid conflicts. The [training script](../training/train.sh) will select the correct environment based on the selected model architecture.
@@ -20,7 +26,7 @@ The first virtual environment (`waste`) contains the dependencies for YOLOv8 and
 Create the virtual environment and install the dependencies both for `ultralytics` and `mmdetection` using the following command:
 
 ```bash
-python setup.sh
+bash setup.sh
 ```
 
 ### YOLOv12

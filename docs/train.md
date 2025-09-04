@@ -26,6 +26,7 @@ The structure of the dataset should be as follows:
 ```bash
 $STORAGE/dronewaste/
 ├── dronewaste_v1.0.json
+├── info.txt
 └── images/
     ├── site_1_4.png
     ├── site_1_5.png

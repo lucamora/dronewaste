@@ -23,7 +23,7 @@ The table summarizes performance on the DroneWaste dataset.
 
 | Model | Parameters | mAP@50 | Documentation |
 | --- | --- | --- | --- |
-| YOLOv8x | 68.2M | 38.2% | [Ultralytics](https://docs.ultralytics.com/models/yolov8) |
+| YOLOv8x | 68.2M | 38.2% | [Ultralytics docs](https://docs.ultralytics.com/models/yolov8) |
 | YOLOv12x (turbo) | 59.3M | 38.5% | [YOLOv12 repo](https://github.com/sunsmarterjie/yolov12) |
 | Faster-RCNN | 41.4M | 36.5% | [MMDetection repo](https://github.com/open-mmlab/mmdetection/tree/main/configs/faster_rcnn) |
 
