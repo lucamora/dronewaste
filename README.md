@@ -1,18 +1,21 @@
-# DroneWaste
+# DroneWaste dataset for waste recognition in drone imagery
 
-<!-- **TODO: ADD PAPER TITLE** -->
+<p align="center">
+    <img src="docs/logo.png" alt="DroneWaste Logo" width="400">
+</p>
 
 *Luca Morandini, Andrea Diecidue, Thanos Petsanis, Enrico Targhini, Georgios Karatzinis, Giacomo Boracchi, Elias B. Kosmatopoulos, Piero Fraternali, Athanasios Ch. Kapoutsis*
-
-![DroneWaste dataset](docs/sites.png)
 
 ## DroneWaste dataset
 
 The DroneWaste dataset is a public collection of aerial images for developing waste recognition models.
 Each visible waste instance is annotated with a segmentation mask, a bounding box, and a waste category.
 The dataset contains 4993 images, 5135 annotations, and 20 waste materials. Each category is mapped to a [European Waste Code](https://ec.europa.eu/eurostat/web/waste/methodology) (EWC) to uniquely identify the waste type.
+The guidelines followed by the researchers and professional photo-interpreters to annotate the images are available [here](docs/annotation_guidelines.pdf).
 
 The dataset is available for download on the [DroneWaste Zenodo repository](https://doi.org/10.5281/zenodo.17045559).
+
+![DroneWaste dataset](docs/sites.png)
 
 ## Waste detection models
 
