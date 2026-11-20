@@ -46,24 +46,30 @@ Follow the [training instructions](docs/train.md) to train a model on the DroneW
 
 Follow the [evaluation instructions](docs/eval.md) to evaluate a model on the DroneWaste dataset.
 
-<!-- ## Citation
+## Citation
 
 ```bibtex
-@article{morandini2025dronewaste,
-    title={TODO: ADD PAPER TITLE},
+@article{morandini2026dronewaste,
+    title={DroneWaste dataset for waste recognition in drone imagery},
     author={Morandini, Luca and
             Diecidue, Andrea and
             Petsanis, Thanos and
             Targhini, Enrico and
             Karatzinis, Georgios and
             Boracchi, Giacomo and
-            Fraternali, Piero and
             Kosmatopoulos, Elias B. and
+            Fraternali, Piero and
             Kapoutsis, Athanasios Ch.},
-    journal={TODO: ADD JOURNAL},
-    year={2025}
+    journal={Scientific Data},
+    volume={13},
+    pages={1666},
+    year={2026},
+    month=aug,
+    doi={10.1038/s41597-026-07970-1},
+    url={https://doi.org/10.1038/s41597-026-07970-1},
+    publisher={Springer Nature}
 }
-``` -->
+```
 
 ## Acknowledgements
 This work was funded by the European Union’s Horizon Europe project PERIVALLON – Protecting the EuRopean terrItory from organised enVironmentAl crime through inteLLigent threat detectiON tools, under grant agreement no. 101073952.
